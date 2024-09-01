@@ -13,7 +13,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AlessandroBertozzi\\CriticalEdition\\Providers\\CriticalEditionProvider"
+                "AlessandroBertozzi\\CriticalEdition\\CriticalEditionProvider"
             ]
         }
     },
