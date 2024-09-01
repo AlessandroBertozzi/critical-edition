@@ -1,0 +1,25 @@
+{
+    "name": "alessandrobertozzi/critical-edition",
+    "require": {
+        "laravel-json-api/laravel": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Database\\Factories\\": "src/database/factories/",
+            "Database\\Seeders\\": "src/database/seeders/",
+            "AlessandroBertozzi\\CriticalEdition\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlessandroBertozzi\\CriticalEdition\\Providers\\CriticalEditionProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Alessandro Bertozzi"
+        }
+    ]
+}
